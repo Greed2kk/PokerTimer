@@ -6,12 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fsd:watch": "npx steiger ./app --watch",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "next": "15.0.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@feature-sliced/eslint-config": "^0.1.1",
@@ -20,11 +22,13 @@
     "@types/react-dom": "^19",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
+    "effector": "^23.2.3",
+    "effector-react": "^23.2.1",
     "eslint": "^8.57.1",
     "eslint-config-next": "15.0.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.7.0",
-    "eslint-plugin-boundaries": "^4.2.2",
+    "eslint-plugin-boundaries": "^5.0.1",
     "eslint-plugin-import": "^2.31.0",
     "postcss": "^8",
     "prettier": "3.4.2",
